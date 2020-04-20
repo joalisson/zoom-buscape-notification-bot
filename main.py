@@ -12,7 +12,7 @@ load_dotenv()
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 URL = "https://api.telegram.org/bot{}/".format(BOT_TOKEN)
-CRAWLER_INTERVAL = 300  # in seconds
+CRAWLER_INTERVAL = 1800  # in seconds
 CHAT_ID = os.getenv('CHAT_ID')  # Telegram chat id (or user id)
 
 
